@@ -2,13 +2,12 @@ FROM node:alpine
 
 WORKDIR /usr/app
 
-#update package
 RUN apk add --update nodejs npm
 RUN apk add --update npm
 RUN apk add --update openssh
 RUN apk add --update git
 
-#DIRECTORY WITH KEYS FILES + create
+#DIRECTORY WITH KEYS FILES
 RUN mkdir -p /root/.ssh
 RUN touch /root/.ssh/id_rsa
 RUN touch /root/.ssh/id_rsa.pub
