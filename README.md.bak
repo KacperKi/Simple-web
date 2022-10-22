@@ -31,7 +31,6 @@ Run container && forward port
 1. #winpty docker run --rm -it -p 8080:8080 --name simple_web_github.v1 344a60255923	- run & remove & forward
 
 Links:
-
 https://www.daren.be/en/blog/2022/05/setting-up-ssh-keys-for-github-and-bitbucket
 
 https://linuxize.com/post/using-the-ssh-config-file/
